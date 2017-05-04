@@ -16,6 +16,6 @@
   ],
   "dependencies": {
     "velocity": "^1.5.0",
-    "zepto": "^1.2.0"
+    "jquery": "^3.2.1"
   }
 }
