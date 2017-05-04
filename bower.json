@@ -1,0 +1,21 @@
+{
+  "name": "lynnx4869",
+  "homepage": "https://github.com/lynnx4869/lynnx4869.github.io",
+  "authors": [
+    "xianing <xianing@czcg.com.cn>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "velocity": "^1.5.0",
+    "zepto": "^1.2.0"
+  }
+}
