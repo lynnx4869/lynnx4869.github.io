@@ -4,7 +4,7 @@
   "description": "Lyning's blog",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "webpack --config webpack.config.js --progress"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,18 @@
   "bugs": {
     "url": "https://github.com/lynnx4869/lynnx4869.github.io/issues"
   },
-  "homepage": "https://github.com/lynnx4869/lynnx4869.github.io#readme"
+  "homepage": "https://github.com/lynnx4869/lynnx4869.github.io#readme",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.24",
+    "@types/react-dom": "^16.8.5",
+    "source-map-loader": "^0.2.4",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  }
 }
