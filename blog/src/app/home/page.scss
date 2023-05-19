@@ -2,14 +2,15 @@
     margin: 0;
     padding: 0;
     border: 0;
-    
+    display: flex;
+    background-color: #303030;
     .left {
-        width: 300px;
+        max-width: 300px;
     }
     .right {
-        width: 500px;
+        max-width: 300px;
     }
-    .left, .main, .right {
-        float: left;
+    .main {
+        flex: 1;
     }
 }

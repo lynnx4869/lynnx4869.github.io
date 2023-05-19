@@ -1,5 +1,6 @@
 import Menu from "@/components/menu"
 import List from "@/components/list"
+import Tool from "@/components/tool"
 import './page.scss'
 
 export default function Home() {
@@ -12,7 +13,7 @@ export default function Home() {
                 <List />
             </div>
             <div className="right">
-                <Menu />
+                <Tool />
             </div>
         </div>
     )
