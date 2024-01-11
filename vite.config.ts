@@ -6,5 +6,6 @@ export default defineConfig({
   build: {
     outDir: 'home',
   },
+  base: '/home/',
   plugins: [react()],
 })
