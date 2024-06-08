@@ -1,0 +1,31 @@
+.article {
+  color: #fff;
+  background-color: #424242;
+  margin-top: 10px;
+
+  .tags {
+    margin-bottom: 30px;
+    .tag {
+      background-color: #2a9d8f;
+      padding: 6px 10px;
+      font-size: 14px;
+    }
+  }
+
+  .title {
+    color: #fff;
+  }
+
+  .date {
+    line-height: 30px;
+    margin-top: 15px;
+    img {
+      vertical-align: sub;
+      display: inline-block;
+    }
+    .datetime {
+      margin: 0 0 0 5px;
+      display: inline-block;
+    }
+  }
+}
