@@ -1,0 +1,71 @@
+.main {
+  position: relative;
+  background-color: #c0ecc6;
+  font-size: 16px;
+  color: #3e4b3f;
+  overflow: auto;
+  .content {
+    position: relative;
+    width: 60%;
+    min-width: 900px;
+    margin: auto;
+    padding: 20px 0;
+    .title {
+      font-size: 50px;
+      font-weight: 1000;
+      text-align: center;
+      line-height: 60px;
+      color: #000;
+    }
+    .cover {
+      width: 100%;
+      margin: 50px auto;
+    }
+    .list {
+      .decoration {
+        color: #aaa;
+        text-decoration: line-through;
+      }
+      .guide-title {
+        margin-top: 15px;
+        line-height: 30px;
+      }
+      .guide {
+        border: 1px solid #ccc;
+        margin-top: 30px;
+        line-height: 30px;
+        .flex {
+          display: flex;
+        }
+
+        .f1 {
+          flex: 1;
+        }
+
+        .w100 {
+          flex: 0 0 100px;
+        }
+
+        .br {
+          border-right: 1px solid #ccc;
+        }
+
+        .bb {
+          border-bottom: 1px solid #ccc;
+        }
+
+        .m5 {
+          padding: 10px;
+        }
+
+        .subtitle {
+          font-weight: bold;
+        }
+
+        .center {
+          text-align: center;
+        }
+      }
+    }
+  }
+}
