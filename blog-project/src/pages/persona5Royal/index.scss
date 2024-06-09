@@ -1,4 +1,17 @@
-.main {
+@media screen and (min-width: 300px) {
+  .persona5-royal-main .content {
+    width: 95%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .persona5-royal-main .content {
+    width: 60%;
+    min-width: 900px;
+  }
+}
+
+.persona5-royal-main {
   position: relative;
   background-color: #c0ecc6;
   font-size: 16px;
@@ -6,8 +19,6 @@
   overflow: auto;
   .content {
     position: relative;
-    width: 60%;
-    min-width: 900px;
     margin: auto;
     padding: 20px 0;
     .title {

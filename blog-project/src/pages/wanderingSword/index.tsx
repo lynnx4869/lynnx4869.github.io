@@ -15,7 +15,7 @@ export default function WanderingSword() {
   })
 
   return (
-    <Layout className="home">
+    <Layout className="wandering-sword-main">
       <Sider className="menu">
         {/* <Anchor
           //   style={{ color: '#fff' }}

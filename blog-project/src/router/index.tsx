@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 const Home = React.lazy(() => import('../pages/home'))
 const WanderingSword = React.lazy(() => import('../pages/wanderingSword'))
 const Persona5Royal = React.lazy(() => import('../pages/persona5Royal'))
+const EldenRing = React.lazy(() => import('../pages/eldenRing'))
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,14 @@ const router = createBrowserRouter([
     element: (
       <Suspense>
         <Persona5Royal />
+      </Suspense>
+    ),
+  },
+  {
+    path: '/elden_ring',
+    element: (
+      <Suspense>
+        <EldenRing />
       </Suspense>
     ),
   },

@@ -1,0 +1,59 @@
+@media screen and (min-width: 300px) {
+  .elden-ring-main .content {
+    width: 95%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .elden-ring-main .content {
+    width: 60%;
+    min-width: 900px;
+  }
+}
+
+.elden-ring-main {
+  position: relative;
+  font-size: 16px;
+  color: #3e4b3f;
+  overflow: auto;
+  .content {
+    position: relative;
+    margin: auto;
+    padding: 20px 0;
+    .title {
+      font-size: 50px;
+      font-weight: 1000;
+      text-align: center;
+      line-height: 60px;
+      color: #000;
+    }
+    .cover {
+      width: 100%;
+      margin: 50px auto;
+    }
+    .list {
+      .mt20 {
+        margin-top: 20px;
+      }
+      .sub {
+        line-height: 30px;
+        font-weight: bold;
+        color: #ff0000;
+        margin-bottom: 20px;
+      }
+      .text {
+        line-height: 30px;
+      }
+      .decoration {
+        color: #aaa;
+        text-decoration: line-through;
+        .ant-collapse-header-text {
+          color: #aaa !important;
+        }
+        .ant-collapse-content-box {
+          color: #aaa !important;
+        }
+      }
+    }
+  }
+}

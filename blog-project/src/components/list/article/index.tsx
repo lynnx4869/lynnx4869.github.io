@@ -19,7 +19,7 @@ export default function Article({ item }: { item: ListItem }) {
       cover={<img style={{ height: '200px', objectFit: 'cover' }} src={item.image} alt="cover" />}>
       <Space className="tags" size={[0, 8]} wrap>
         {item.tags.map((tag) => (
-          <Tag className="tag" color="#2a9d8f">
+          <Tag key={tag} className="tag" color="#2a9d8f">
             {tag}
           </Tag>
         ))}

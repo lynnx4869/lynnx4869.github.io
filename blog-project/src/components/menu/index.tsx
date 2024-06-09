@@ -1,5 +1,5 @@
 import { Avatar, Typography } from 'antd'
-import head from '../../assets/head.jpg'
+import head from '../../assets/head.webp'
 import './index.scss'
 
 const { Title } = Typography

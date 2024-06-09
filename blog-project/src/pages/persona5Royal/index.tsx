@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import persona5_royal from '../../assets/persona5_royal.png'
+import persona5_royal from '../../assets/persona5_royal.webp'
 import Checkbox from '../../components/checkbox'
 import p5r from '../../data/json/p5r.json'
 import './index.scss'
@@ -42,7 +42,6 @@ export default function Persona5Royal() {
   }, [checks])
 
   const dochecked = (key: string, time: string, checked: boolean) => {
-    console.log(key, time, checked)
     let checkItem = checks[key]
     if (!checkItem) {
       checkItem = []
@@ -62,7 +61,7 @@ export default function Persona5Royal() {
   }
 
   return (
-    <div className="main">
+    <div className="persona5-royal-main">
       <div className="content">
         <div className="title">女神异闻录5皇家版 攻略</div>
         <div className="cover">
