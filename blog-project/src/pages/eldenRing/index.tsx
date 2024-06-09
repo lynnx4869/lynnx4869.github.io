@@ -112,7 +112,7 @@ export default function EldenRing() {
                                     if (checked) {
                                       setChecks({
                                         ...checks,
-                                        [childKey]: children.map((item, itemIndex) => {
+                                        [childKey]: children.map((_item, itemIndex) => {
                                           return `${childKey}-${itemIndex}`
                                         }),
                                       })
