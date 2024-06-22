@@ -16,7 +16,19 @@ export default function Article({ item }: { item: ListItem }) {
       bordered={false}
       hoverable
       onClick={() => navigate(item.url)}
-      cover={<img style={{ height: '200px', objectFit: 'cover' }} src={item.image} alt="cover" />}>
+      style={{
+        overflow: 'hidden',
+      }}
+      styles={{
+        cover: {
+          height: '200px',
+          background: `url(${item.image})`,
+          backgroundRepeat: 'no-repeat',
+          backgroundSize: '100% auto',
+          backgroundPosition: item.position || 'center',
+        },
+      }}
+      cover={<></>}>
       <Space className="tags" size={[0, 8]} wrap>
         {item.tags.map((tag) => (
           <Tag key={tag} className="tag" color="#2a9d8f">
