@@ -13,7 +13,7 @@ export default function Article({ item }: { item: ListItem }) {
   return (
     <Card
       className="article"
-      bordered={false}
+      variant="borderless"
       hoverable
       onClick={() => navigate(item.url)}
       style={{

@@ -1,9 +1,11 @@
 import { Collapse, Image } from 'antd'
+import { useEffect, useState } from 'react'
 import elden_ring from '../../assets/elden_ring.webp'
+import Checkbox from '../../components/checkbox'
 import eldenRing from '../../data/json/elden_ring.json'
 import './index.scss'
-import Checkbox from '../../components/checkbox'
-import { useEffect, useState } from 'react'
+
+const PUBLIC_IMAGE_PATH = import.meta.env.PUBLIC_IMAGE_PATH
 
 type GuideItem = {
   key: string
@@ -26,7 +28,7 @@ function formatEl(origin: string[], key: string) {
   return origin.map((item, index) => {
     const subkey = `${key}-${index + 1}`
     if (item.startsWith('/elden_ring')) {
-      return <Image key={subkey} height={200} src={`/blog${item}`} />
+      return <Image key={subkey} height={200} src={`${PUBLIC_IMAGE_PATH}${item}`} />
     } else {
       return (
         <p key={subkey} className="text">
@@ -53,7 +55,6 @@ export default function EldenRing() {
   }, [checks])
 
   const dochecked = (key: string, childKey: string, checked: boolean) => {
-    console.log(key, childKey, checked)
     let checkItem = checks[key]
     if (!checkItem) {
       checkItem = []

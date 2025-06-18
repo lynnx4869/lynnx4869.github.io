@@ -1,6 +1,6 @@
-import wandering_sword from '../assets/wandering_sword.webp'
-import persona5_royal from '../assets/persona5_royal.webp'
 import elden_ring from '../assets/elden_ring.webp'
+import persona5_royal from '../assets/persona5_royal.webp'
+import dragons_dogma_2 from '../assets/dragons_dogma_2.webp'
 
 export type ListItem = {
   url: string
@@ -13,14 +13,6 @@ export type ListItem = {
 }
 
 const IndexList: ListItem[] = [
-  {
-    url: '/wandering_sword',
-    image: wandering_sword,
-    title: '逸剑风云决 攻略',
-    memo: '《逸剑风云决》是一款像素武侠RPG游戏。玩家将扮演一名来自关外辽城的普通少年，因意外卷入江湖纷争而身中剧毒，幸得武当掌门清虚真人出手才得救。自此，你梦想成为一代大侠，正式踏入了中原武林。你的选择将改变整个武林故事，与江湖中各种侠客结交互动，甚至改变他们的命运！',
-    tags: ['角色扮演', '武术', '像素图形', '回合制', '策略', '冒险'],
-    date: 1705118400000,
-  },
   {
     url: '/persona5_royal',
     image: persona5_royal,
@@ -36,6 +28,15 @@ const IndexList: ListItem[] = [
     memo: '艾尔登法环是以正统黑暗奇幻世界为舞台的动作RPG游戏。 走进辽阔的场景与地下迷宫探索未知，挑战困难重重的险境，享受克服困境时的成就感吧。 不仅如此，登场角色之间的利害关系谱成的群像剧，更是不容错过。',
     tags: ['类魂系列', '黑暗奇幻', '开放世界', '角色扮演', '困难'],
     date: 1717819200000,
+    position: 'top',
+  },
+  {
+    url: '/dragons_dogma_2',
+    image: dragons_dogma_2,
+    title: '龙之信条2 攻略',
+    memo: '能够响应玩家想像且丰富多彩的动作，以及即使是单人游玩也能享受「与他人一起冒险的乐趣」的游戏体验。 借助最新的画面、物理计算及人工智能，精心编织而成的王道幻想世界。这个世界充满着惊喜和现实感。 与旅伴追随者一起，让我们踏入一场独一无二的冒险吧。',
+    tags: ['开放世界', '角色扮演', '动作角色扮演', '奇幻', '单人'],
+    date: 1750291200000,
     position: 'top',
   },
 ]

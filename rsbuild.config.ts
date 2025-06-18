@@ -2,6 +2,8 @@ import { defineConfig } from '@rsbuild/core'
 import { pluginReact } from '@rsbuild/plugin-react'
 import { pluginSass } from '@rsbuild/plugin-sass'
 
+const PUBLIC_HTML_PATH = process.env.PUBLIC_HTML_PATH
+
 export default defineConfig({
   plugins: [pluginReact(), pluginSass()],
   html: {
@@ -12,17 +14,7 @@ export default defineConfig({
     assetPrefix: 'auto',
     distPath: {
       root: 'blog',
-      html: '../',
-    },
-  },
-  tools: {
-    rspack(_, { addRules }) {
-      addRules([
-        {
-          test: /\.md$/,
-          type: 'asset/source',
-        },
-      ])
+      html: PUBLIC_HTML_PATH,
     },
   },
 })

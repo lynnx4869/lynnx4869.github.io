@@ -1,0 +1,44 @@
+@media screen and (min-width: 300px) {
+  .dragons-dogma2 .content {
+    width: 95%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .dragons-dogma2 .content {
+    width: 60%;
+    min-width: 900px;
+  }
+}
+
+.dragons-dogma2 {
+  position: relative;
+  font-size: 16px;
+  color: #fff;
+  background-color: #303030;
+  min-height: 100vh;
+  overflow: auto;
+  .content {
+    position: relative;
+    margin: auto;
+    padding: 20px 0;
+    .title {
+      font-size: 50px;
+      font-weight: 1000;
+      text-align: center;
+      line-height: 60px;
+      color: #fff;
+    }
+    .cover {
+      width: 100%;
+      margin: 50px auto;
+      position: relative;
+      .cover-icon {
+        position: absolute;
+        bottom: 100px;
+        left: calc(50% - 300px);
+        width: 600px;
+      }
+    }
+  }
+}

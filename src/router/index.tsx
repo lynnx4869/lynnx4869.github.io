@@ -2,9 +2,9 @@ import React, { Suspense } from 'react'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 const Home = React.lazy(() => import('../pages/home'))
-const WanderingSword = React.lazy(() => import('../pages/wanderingSword'))
 const Persona5Royal = React.lazy(() => import('../pages/persona5Royal'))
 const EldenRing = React.lazy(() => import('../pages/eldenRing'))
+const DragonsDogma2 = React.lazy(() => import('../pages/dragonsDogma2'))
 
 const router = createBrowserRouter([
   {
@@ -12,14 +12,6 @@ const router = createBrowserRouter([
     element: (
       <Suspense>
         <Home />
-      </Suspense>
-    ),
-  },
-  {
-    path: '/wandering_sword',
-    element: (
-      <Suspense>
-        <WanderingSword />
       </Suspense>
     ),
   },
@@ -36,6 +28,14 @@ const router = createBrowserRouter([
     element: (
       <Suspense>
         <EldenRing />
+      </Suspense>
+    ),
+  },
+  {
+    path: '/dragons_dogma_2',
+    element: (
+      <Suspense>
+        <DragonsDogma2 />
       </Suspense>
     ),
   },
