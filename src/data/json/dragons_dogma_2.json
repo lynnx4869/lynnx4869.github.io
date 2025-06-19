@@ -1,0 +1,600 @@
+[
+  {
+    "key": "264b853c-bc87-4dbf-b099-3d4f20ce7073",
+    "type": "main",
+    "title": "在监狱中醒来",
+    "content": [
+      "在监牢里，可以从已经设计好的众多角色里直接选择一个作为主角，也可以选择背对着你的兜帽人来自己捏脸。",
+      "走出监牢，跟随监督官来到发掘现场。",
+      "到洞里抱块石头出来，放到卢克身旁。",
+      "打跑美杜莎后，往海边跑，跳下悬崖。"
+    ]
+  },
+  {
+    "key": "d270ad6a-6e6e-4599-aa72-6cbf0d8ed44e",
+    "type": "main",
+    "title": "初始之地",
+    "content": [
+      "跟随贾斯汀来到国境监视兵团营地，使用异界石选择主要追随者。主要追随者只能有一个，另外还可以再雇佣2个支援追随者",
+      "逛逛营地，看看小卖部。",
+      "出南门准备离开营地时，npc会推荐你去旅店休息。"
+    ]
+  },
+  {
+    "key": "6038711f-6672-452f-bb7f-c5e04ed885de",
+    "type": "side",
+    "title": "新兵的苦难",
+    "content": [
+      "在营地里的简易旅店住宿休息后准备出南门离开，门口接到支线任务“新兵的苦难”。",
+      "去目标地点救被鸟身女妖攻击的阿卡多。",
+      "救下阿卡多后，回营地交任务。"
+    ]
+  },
+  {
+    "key": "2fbd69fd-8afa-491a-ad27-66ab5d333bcd",
+    "type": "side",
+    "title": "兽人教官",
+    "content": [
+      "下图位置遇到教官布连，接到支线任务“兽人教官”。",
+      "回营地，在小卖部买三把剑交给布连。在营地东北部的训练场也能找到布连，直接把三把剑交给他，省得大老远再跑遍路了。",
+      "至于充满干劲的士兵，得等进了王城后才能遇到，先不用管。"
+    ],
+    "images": ["/dragons_dogma_2/0001.jpg"]
+  },
+  {
+    "key": "3f37c281-3d43-4361-af59-cac1e91a879f",
+    "type": "side",
+    "title": "补给队员的烦恼",
+    "content": [
+      "营地里对话杰弗里，接到支线任务“补给队员的烦恼”。",
+      "到营地北面，游戏一开始刚从狮鹫身上掉下来时路过的地方，找到马科斯，把笔记交给他。",
+      "附近可以直接捡到花薯、水果、药草。",
+      "把3个花薯、2个治愈药交给马科斯，然后回营地找杰弗里交任务。"
+    ]
+  },
+  {
+    "key": "b30310b2-0343-4867-a13b-9964ed595f38",
+    "type": "main",
+    "title": "来自毁灭的村子",
+    "content": [
+      "离开营地，前往梅维村。",
+      "进入村子，到井边触发剧情。",
+      "从乌利卡小姐姐的家中醒来，搜刮小姐姐家里，开宝箱得到“龙之脉动的碎片”。每获得3个龙之脉动碎片，自动合成1个龙之脉动，用于复活自己或别人。",
+      "进入旅店见到莱纳特，他是战士大师。"
+    ]
+  },
+  {
+    "key": "8648594e-3746-44fb-b0ab-a6e35be3222c",
+    "type": "side",
+    "title": "小小的冒险",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "66abeec3-0835-41c0-8f15-86c936a3b274",
+    "type": "side",
+    "title": "兄弟的努力",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "edf17edd-167e-450f-8802-f4e889c66e8b",
+    "type": "main",
+    "title": "王城之都",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "fb285f83-1547-46cf-b368-4f46f68ad8ac",
+    "type": "side",
+    "title": "前往牛车街道",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "f91d7f7d-425d-4fea-9d0e-c49a153e795c",
+    "type": "side",
+    "title": "水边的蜥蜴",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "5ee5a392-4883-4d57-a69c-01aebd9390b7",
+    "type": "side",
+    "title": "被封闭的钻研【斗士、巫师职业解锁】",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "5c4853ff-c66c-4dc3-ba61-fb3f516367c6",
+    "type": "side",
+    "title": "机关盒的缘分",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "71121c99-9086-452a-9ae0-c512b3f62e5b",
+    "type": "main",
+    "title": "迪莎的谋略",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "1f6bde85-90e2-4175-8ad9-88b51bfc6e3d",
+    "type": "main",
+    "title": "指引龙眼位置（龙之脉动碎片探测器）",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "ba21981d-d4f8-4fba-b9a6-09d7866dc549",
+    "type": "main",
+    "title": "保护法务官",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "9709e775-8f9e-483a-9986-ea8e267695f8",
+    "type": "side",
+    "title": "脚下之貌",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "2a872083-a3ef-4671-870d-a9520fe2ec23",
+    "type": "side",
+    "title": "灾厄到来【魔剑士职业解锁】",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "26562ffc-9b3e-4596-891d-f4e2e3c0a748",
+    "type": "side",
+    "title": "布连的执着",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "0257685d-4c50-494f-8857-c0d8e8bc9417",
+    "type": "side",
+    "title": "手握憧憬",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "98a6fce3-22fb-436d-a56c-7eb00373060e",
+    "type": "side",
+    "title": "随心所欲的旅人（买房子）",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "a33f9811-d390-4119-a9c6-f667efba318b",
+    "type": "side",
+    "title": "功罪的棋子",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "4146c3bf-d6fc-4038-b2d5-ee812e09d6dd",
+    "type": "side",
+    "title": "接近觉醒者的暗影",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "e3becf5f-cc82-4bb7-8468-f0238d1b7439",
+    "type": "side",
+    "title": "救赎之家的少女",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "8e6a5bea-42f2-469b-821f-c3492b39d1b1",
+    "type": "side",
+    "title": "垃圾堆的圣女",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "bed26b52-0092-4a74-b684-21bbc2ab0969",
+    "type": "side",
+    "title": "苦恼的嫩枝",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "b8d783c7-cdff-4d9b-8e53-b8bc45620583",
+    "type": "side",
+    "title": "小树的潜力（传送基石）",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "32b492df-85cb-4c89-987f-2721595bb51e",
+    "type": "main",
+    "title": "精灵语翻译",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "0bcaa714-ec83-475d-8240-b6f66366201f",
+    "type": "side",
+    "title": "于墨绿之森【弓箭手大师技能】",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "3b76f88d-e904-430c-a44b-ce2d9a04ff7a",
+    "type": "side",
+    "title": "贵族宅邸的少年",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "8db062f3-ebe4-4bfb-9351-d66a3253dc94",
+    "type": "main",
+    "title": "富人区买豪宅别墅、停尸房",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "03393095-0a4b-4ff6-9e8d-59abf8b7069e",
+    "type": "side",
+    "title": "夫妻之情（传送基石）",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "985e30cd-6da6-4db9-a33d-96b24992f62d",
+    "type": "main",
+    "title": "假王的计策、蔷薇宫殿",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "63bb8c0b-5a09-4df9-bfc7-245c27e6138f",
+    "type": "main",
+    "title": "令人不安的接触",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "bea458eb-97c0-4e86-8482-d1b39871b3ab",
+    "type": "side",
+    "title": "被囚禁的公子",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "e0768fdb-b366-455b-b485-effbb72d04fb",
+    "type": "side",
+    "title": "朽剑与名匠",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "5e692df5-bfdb-4c82-ab97-18353929953e",
+    "type": "side",
+    "title": "法务官与文明的利器",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "d09c04fd-8cd1-43c2-a04a-b7bf5ff45452",
+    "type": "side",
+    "title": "混淆视听的村子【盗贼大师技能】",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "1c90f726-bc03-4d3d-a112-ff27c24d0419",
+    "type": "main",
+    "title": "魔物讨伐",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "dc435b9d-f548-4805-a424-552f90cd5d75",
+    "type": "side",
+    "title": "栖息于海岬的生物",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "62fe1a65-38d0-4283-b195-e427b4ba4730",
+    "type": "side",
+    "title": "不和之岬",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "67827fb9-7bf2-41e7-bc30-4543c7e30452",
+    "type": "side",
+    "title": "离乡之日【恋爱、战士大师技能】",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "8d47cc65-c01a-41a1-8759-2a451f3cf00d",
+    "type": "main",
+    "title": "欺瞒的祝宴（传送基石）",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "ccef2bc8-2ea5-4935-a5d6-795937d89c84",
+    "type": "side",
+    "title": "年轻雕刻家的忧郁",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "ea421775-29ae-472e-a78f-350cc70472d6",
+    "type": "side",
+    "title": "月亮藏入云中",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "27395339-b343-48e4-a34e-c24663c449d9",
+    "type": "side",
+    "title": "阴沉的蔷薇园（攻略老板娘）",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "625ce779-17c7-41d6-81ae-63bf0f59c342",
+    "type": "main",
+    "title": "瀑帘洞窟",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "96011713-94be-4e9d-a66a-e410662ea3a5",
+    "type": "side",
+    "title": "被掳走的少年",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "9af61be2-a1ba-4cf0-8584-f7ffee442e17",
+    "type": "side",
+    "title": "不知去向的宝石",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "3d4aea1f-cc1f-4195-b339-c7100778e81f",
+    "type": "side",
+    "title": "巫师的信条【法师、巫师大师技能】",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "e1a47991-f238-4659-9ca3-e7bebb0ea7bc",
+    "type": "main",
+    "title": "国境关口【斗士大师技能】",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "4224f1e0-cf7d-40c9-8597-f60e58c6685f",
+    "type": "side",
+    "title": "镇魂之钟、斯芬克斯谜题准备工作",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "3f565c25-d5f6-4514-96b0-1febd717c7ae",
+    "type": "side",
+    "title": "汝，知之乎（斯芬克斯谜题1-5）",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "c4c23eb5-4bf0-47d9-8242-5fb95dc05c8e",
+    "type": "side",
+    "title": "掠夺与慈悲",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "e4a730cd-3076-4013-b115-458a0917cd8f",
+    "type": "main",
+    "title": "炎之国",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "62f788c9-9cb8-4738-b9b2-0ebfcfc61a3b",
+    "type": "side",
+    "title": "汝，知之乎（斯芬克斯谜题6-10）",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "21f22f6c-06db-4210-9e70-cf22681184ba",
+    "type": "main",
+    "title": "兽人国买房",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "22e10f39-e3a4-451e-870a-1540ea8d9002",
+    "type": "side",
+    "title": "热衷毒素的研究者",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "763ebaed-e8ba-4d27-9dbb-be124a48d43f",
+    "type": "side",
+    "title": "指明的生路",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "be52f6d9-f3e8-44fb-bae2-62367374e586",
+    "type": "side",
+    "title": "巴达尔的洗礼",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "1efc23c3-d793-4655-a9b9-0a8c9120ba7b",
+    "type": "side",
+    "title": "迈进的代价",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "28490a99-5139-4d30-9ab4-bdcc66cdffe5",
+    "type": "side",
+    "title": "钢铁意志的温度",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "9d56e619-faf8-4e45-ada6-61c57cb0bd23",
+    "type": "main",
+    "title": "隐藏酒铺买蜥蜴酒",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "71b9e76a-27da-4e2a-9432-c6229fc3ba49",
+    "type": "main",
+    "title": "美杜莎位置",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "4387afcd-95d6-49a3-880f-9243698fcb44",
+    "type": "side",
+    "title": "暗中逼近圣焰的黑影",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "76960afa-7c75-41e1-adbc-120a4e96f292",
+    "type": "main",
+    "title": "禁咒研究院",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "e017748a-5b14-489c-ba23-8dd6e52ef8af",
+    "type": "main",
+    "title": "买海景别墅",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "cfbc609d-37b2-45cb-9acd-2ec3dee74a2e",
+    "type": "side",
+    "title": "选定的处事方法",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "f41613aa-9c5b-4f0b-96a4-2902277542d6",
+    "type": "side",
+    "title": "隐居的夫妇【魔弓手职业大师】",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "2f42c4f7-93b1-4992-a261-c3901716ddd7",
+    "type": "side",
+    "title": "武艺高强的酒豪【龙选者职业大师】",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "3fdc2d34-ba8f-42d2-9dce-a36b73d016ba",
+    "type": "main",
+    "title": "发掘现场",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "4b4cdfc5-317d-44eb-87c0-093fc4203996",
+    "type": "main",
+    "title": "山麓洞窟",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "485efba8-65b0-4f4e-bb6e-1a80bb335323",
+    "type": "side",
+    "title": "相依的火焰",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "bfa1e73e-d451-4ca3-918f-47f10ad8ebd5",
+    "type": "side",
+    "title": "离开墨绿之森",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "7e172d7d-3cec-4ecd-8528-e61cabf8857a",
+    "type": "main",
+    "title": "王宫地下宝库",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "c4260231-2de3-4348-bfcb-e088349f9e0d",
+    "type": "side",
+    "title": "贵族的礼物",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "b0805996-8662-47e9-8de5-8a6f51b58779",
+    "type": "side",
+    "title": "秘密越境",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "26aa8d7a-98f0-400d-abd7-bf9246b4b80a",
+    "type": "side",
+    "title": "幽灵牛车",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "fffef9e8-5248-4c95-92d0-9509ada104e0",
+    "type": "side",
+    "title": "响彻街道的刀剑声",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "69009052-2d31-4e9c-8089-b7e79de6e910",
+    "type": "main",
+    "title": "炎之国之影【幻术师职业大师】",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "23ed9df9-c6a2-4bd6-b8fb-8c1ed44595c7",
+    "type": "main",
+    "title": "邂逅",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "69cf22f5-0b9c-4d4f-a117-b8b09c50b733",
+    "type": "main",
+    "title": "侍神者之声【魔剑士大师技能】",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "edc6acd1-3d51-47bd-98a9-443109bbc5fa",
+    "type": "main",
+    "title": "神之守卫",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "627a0f48-f59d-462d-9080-7581190c51e3",
+    "type": "main",
+    "title": "意志、普通结局",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "f43227ed-6768-4705-9b6a-45285b9dc56a",
+    "type": "main",
+    "title": "真结局（无神佑的世界）",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "4f2dda1d-4772-4c25-9778-7f592471b247",
+    "type": "main",
+    "title": "无神佑的世界-黎明之都",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "b2426295-c2b6-403d-9ee6-cdfe8044786b",
+    "type": "main",
+    "title": "无神佑的世界-熟睡",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "d372cbee-5887-4e41-82c6-df19e7b5764a",
+    "type": "main",
+    "title": "无神佑的世界-法泽斯的反抗",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "4d60faa8-7c84-4abe-8150-beb8a21de1be",
+    "type": "main",
+    "title": "无神佑的世界-厄尼斯特的请求",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "41e3a1ca-20a7-4f39-b9c5-c65b94c49f4b",
+    "type": "main",
+    "title": "无神佑的世界-亨利克的大义",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "bfad1691-250e-49ba-95e6-5a6a7a0a0a06",
+    "type": "main",
+    "title": "无神佑的世界-梅内拉的诚意",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "accd2070-1582-40ae-9218-5add4ea3081f",
+    "type": "main",
+    "title": "无神佑的世界-深入研究的结果",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "af3ba77d-87a3-4f4e-8d95-8bc5b17b9a10",
+    "type": "main",
+    "title": "无神佑的世界-塔艾森的期望",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "4931c69c-588b-46b9-a885-4ca7d016f01d",
+    "type": "main",
+    "title": "无神佑的世界-斯温的决心",
+    "content": ["", "", ""]
+  },
+  {
+    "key": "4b5ab9c8-a8cb-4edc-94a2-478865fa5e86",
+    "type": "main",
+    "title": "完美大结局",
+    "content": ["", "", ""]
+  }
+]
