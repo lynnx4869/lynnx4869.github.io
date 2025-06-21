@@ -6,8 +6,6 @@ import dragons_dogma_2_logo from '../../assets/dragons_dogma_2_logo.png'
 import dragonsDogma2 from '../../data/json/dragons_dogma_2.json'
 import './index.scss'
 
-const PUBLIC_IMAGE_PATH = import.meta.env.PUBLIC_IMAGE_PATH
-
 export default function DragonsDogma2() {
   const [checks, setChecks] = useState<string[]>(() => {
     const data = localStorage.getItem('DRAGONSDOGMA2CHECKS')
@@ -52,7 +50,7 @@ export default function DragonsDogma2() {
           </div>
           <div className="list">
             {dragonsDogma2.map((item) => {
-              const { key, type, title, content, images } = item
+              const { key, type, title, content } = item
 
               if (checks.includes(key)) {
                 return (
@@ -140,12 +138,6 @@ export default function DragonsDogma2() {
                         }
                       })}
                     />
-                    {images &&
-                      images.map((image, index) => {
-                        return (
-                          <Image key={index} height={200} src={`${PUBLIC_IMAGE_PATH}${image}`} />
-                        )
-                      })}
                   </Card>
                 )
               }
