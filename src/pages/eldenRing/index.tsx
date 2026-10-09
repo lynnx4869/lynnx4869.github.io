@@ -5,8 +5,6 @@ import Checkbox from '../../components/checkbox'
 import eldenRing from '../../data/json/elden_ring.json'
 import './index.scss'
 
-const PUBLIC_IMAGE_PATH = import.meta.env.PUBLIC_IMAGE_PATH
-
 type GuideItem = {
   key: string
   content: string
@@ -28,7 +26,7 @@ function formatEl(origin: string[], key: string) {
   return origin.map((item, index) => {
     const subkey = `${key}-${index + 1}`
     if (item.startsWith('/elden_ring')) {
-      return <Image key={subkey} height={200} src={`${PUBLIC_IMAGE_PATH}${item}`} />
+      return <Image key={subkey} height={200} src={`${item}`} />
     } else {
       return (
         <p key={subkey} className="text">
