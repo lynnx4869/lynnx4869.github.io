@@ -6,6 +6,7 @@
   "scripts": {
     "build": "rsbuild build",
     "dev": "rsbuild dev --open",
+    "pages": "rsbuild build && NODE_DEBUG=gh-pages gh-pages -d dist",
     "format": "prettier --write ./src",
     "lint": "eslint ."
   },
@@ -31,6 +32,7 @@
     "eslint": "^10.12.0",
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^7.1.1",
+    "gh-pages": "^6.3.0",
     "globals": "^17.13.0",
     "prettier": "^3.9.9",
     "typescript": "^7.0.2"
