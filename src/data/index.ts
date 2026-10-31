@@ -1,6 +1,7 @@
+import dragons_dogma_2 from '../assets/dragons_dogma_2.webp'
 import elden_ring from '../assets/elden_ring.webp'
 import persona5_royal from '../assets/persona5_royal.webp'
-import dragons_dogma_2 from '../assets/dragons_dogma_2.webp'
+import summer_memories from '../assets/summer_memories.webp'
 
 export type ListItem = {
   url: string
@@ -38,6 +39,15 @@ const IndexList: ListItem[] = [
     tags: ['开放世界', '角色扮演', '动作角色扮演', '奇幻', '单人'],
     date: 1750291200000,
     position: 'top',
+  },
+  {
+    url: '/summer_memories',
+    image: summer_memories,
+    title: '夏日狂想曲：乡间的难忘回忆 攻略',
+    memo: '暑假到了，你回到了乡下，见到了好久不见的姑父，姑姑和两位表姐。在为期一个月的暑假生活中，究竟会发生怎样的奇遇呢？在《夏日狂想曲》中一探究竟吧！',
+    tags: ['色情内容', '裸露', '动漫色情', '像素图形', '第一人称射击', '2D'],
+    date: 1793467428592,
+    position: 'bottom',
   },
 ]
 

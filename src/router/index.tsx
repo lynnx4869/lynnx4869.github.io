@@ -1,5 +1,6 @@
 import React, { Suspense } from 'react'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import SummerMemories from '../pages/summerMemories'
 
 const Home = React.lazy(() => import('../pages/home'))
 const Persona5Royal = React.lazy(() => import('../pages/persona5Royal'))
@@ -36,6 +37,14 @@ const router = createBrowserRouter([
     element: (
       <Suspense>
         <DragonsDogma2 />
+      </Suspense>
+    ),
+  },
+  {
+    path: '/summer_memories',
+    element: (
+      <Suspense>
+        <SummerMemories />
       </Suspense>
     ),
   },

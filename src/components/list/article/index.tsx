@@ -29,7 +29,7 @@ export default function Article({ item }: { item: ListItem }) {
         },
       }}
       cover={<></>}>
-      <Space className="tags" size={[0, 8]} wrap>
+      <Space className="tags" size={10} wrap>
         {item.tags.map((tag) => (
           <Tag key={tag} className="tag" color="#2a9d8f">
             {tag}
